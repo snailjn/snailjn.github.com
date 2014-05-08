@@ -5,21 +5,21 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>alpinegizmo</title>
- <link href="http://alpinegizmo.com/atom.xml" rel="self"/>
- <link href="http://alpinegizmo.com/"/>
+ <link href="http://snailjn.github.io/atom.xml" rel="self"/>
+ <link href="http://snailjn.github.io/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://alpinegizmo.com/</id>
+ <id>http://snailjn.github.io/</id>
  <author>
-   <name>David Anderson</name>
-   <email>david@alpinegizmo.com</email>
+   <name>JiangNa Li</name>
+   <email>ljn880228@126.com</email>
  </author>
  
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://alpinegizmo.com{{ post.url }}"/>
+   <link href="http://snailjn.github.io{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://alpinegizmo.com{{ post.id }}</id>
+   <id>http://snailjn.github.io{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}

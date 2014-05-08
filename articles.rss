@@ -4,9 +4,9 @@ layout: nil
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
-    <title>alpinegizmo</title>
-    <description>David "alpinegizmo" Anderson's blog</description>
-    <link>http://alpinegizmo.com</link>
+    <title>snailjngithub</title>
+    <description>Snailjn's blog</description>
+    <link>http://snailjn.github.io</link>
     <language>en-us</language>
     <lastBuildDate>{{ site.time | date:'%a, %d %b %Y %H:%M:%S GMT' }}</lastBuildDate>
 
@@ -16,7 +16,7 @@ layout: nil
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date:'%a, %d %b %Y %H:%M:%S GMT' }}</pubDate>
         <guid isPermaLink="false">{{ post.id }}</guid>
-        <link>http://alpinegizmo.com{{ post.url }}</link>
+        <link>http://snailjn.github.io{{ post.url }}</link>
       </item>
     {% endfor %}
   </channel>
